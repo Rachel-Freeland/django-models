@@ -12,9 +12,3 @@ class Snack(models.Model):
     def __str__(self):
         return self.name
 
-
-class SnackDetailView(Snack):
-    name = models.CharField(max_length=64)
-    description = models.TextField()
-    purchaser = models.ForeignKey(get_user_model(), models.CASCADE)
-    pass
