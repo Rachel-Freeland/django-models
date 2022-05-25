@@ -17,7 +17,7 @@ class SnacksTests(TestCase):
         self.assertTemplateUsed(res, "base.html")
 
     # def test_detail_page_status_code(self):
-    #     url = reverse("snack_detail", args=arr.pk)
+    #     url = reverse('/4')
     #     res = self.client.get(url)
     #     self.assertEqual(res.status_code, 200)
 
