@@ -5,6 +5,10 @@
     <title>Snacks</title>
 </head>
 <body>
+<nav>
+    <a href="{%  url 'snack_list' %}">Snack List </a>
+    <a href="{% url 'snack_detail' %}"> Snack Details</a>
+</nav>
 {% block content %}
 
 {% endblock content %}
