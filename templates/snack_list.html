@@ -2,6 +2,6 @@
 
 {% block content %}
     {% for snack in object_list %}
-        <p><a href="{% url 'snack_list' snack.pk %}">{{ snack.name }}</a></p>
+        <p><a href="{% url 'snack_detail' snack.pk %}">{{ snack.name }}</a></p>
     {%  endfor %}
 {% endblock content %}
